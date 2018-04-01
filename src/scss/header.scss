@@ -1,0 +1,46 @@
+header {
+    height: 100vh;
+    padding-top: 55px;
+    background-image: url("../img/jpg/welcome-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin-bottom: 0; 
+    overflow: hidden;
+    box-sizing: border-box;
+    .top-menu-logo-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    ul {
+        list-style-type: none;
+    }
+    li {
+        display: inline;
+    }
+    a {
+        color: black;
+        cursor: default;
+        text-decoration: none;
+        font: 18px "ProximaRegular", sans-serif;
+        padding: 0 20px;
+        line-height: 1;
+    }
+    a:hover {
+        color: gray;
+    }
+    a:focus {
+        border-radius: 10px;
+        border: 1px solid transparent;  
+    }
+    h1 {
+        font: 48px "ProximaBold", sans-serif;
+        margin: 150px 0 15px 0;
+        text-align: center;
+    }
+    p {
+        color: #949494;
+        text-align: center;
+        
+    }  
+}
